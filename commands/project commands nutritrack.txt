@@ -1,0 +1,8 @@
+(base) PS D:\NutriTrack_Ketan> cd backend
+(base) PS D:\NutriTrack_Ketan\backend> .venv\Scripts\activate
+(.venv) (base) PS D:\NutriTrack_Ketan\backend> cd .venv
+(.venv) (base) PS D:\NutriTrack_Ketan\backend\.venv> cd app
+(.venv) (base) PS D:\NutriTrack_Ketan\backend\.venv\app> uvicorn main:app --reload
+
+(base) PS D:\NutriTrack_Ketan> cd frontend
+(base) PS D:\NutriTrack_Ketan\frontend> npm run dev   
